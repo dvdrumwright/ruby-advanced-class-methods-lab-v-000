@@ -59,13 +59,11 @@ def self.new_from_filename(filename)
     song 
   end 
     
-def self.create_from_filename(song)
-    song_info = song.gsub(".mp3","").split(" - ")
-    song = self.create_by_name(song_info[1])
-    song.artist_name = song_info[0]
-
-  end
-
+def self.create_from_filename(data)
+data_info =  data.gsub(".mp3","").split("-")
+music = self.music_name(data_info[1])
+music.artist_name = data_info[0]
+end 
 
 
 
