@@ -65,7 +65,11 @@ music = self.create_by_name(data_info[1])
 music.artist_name = data_info[0]
 end 
 
-def 
+def destroy_all 
+  
+  @@all.clear 
+  
+end 
 
 
 
