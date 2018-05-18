@@ -67,7 +67,7 @@ def self.new_from_filename(filename)
     artist_name = b[0]
     song_name = b[1].gsub(".mp3","")
     
-    song = song.new
+    song = song.a
     song_match = song.find_by_name 
     song_match.name = song_name 
     song_match.artist_name = artist_name 
