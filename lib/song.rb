@@ -61,7 +61,19 @@ def self.new_from_filename(filename)
     
     
     
-    def create_from_filename
+    def self.create_from_filename(file)
+         a = file 
+         
+         
+         
+         
+         song = song.file 
+         song_match = song.find_by_name 
+         song_match.name = song_name 
+         song_match.artist_name = artist_name 
+         
+       end 
+      
       
       
     end 
