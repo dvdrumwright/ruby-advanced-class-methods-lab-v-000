@@ -61,9 +61,9 @@ def self.new_from_filename(filename)
     
     
     
-    def self.create_from_filename(file)
-    song = file 
-    file.save 
+    def self.create_from_filename
+      song = create_from_filename
+      song.new =  song.save 
          
        end 
       
