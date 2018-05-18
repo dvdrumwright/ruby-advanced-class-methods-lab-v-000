@@ -60,7 +60,7 @@ def self.new_from_filename(filename)
   end 
     
 def self.create_from_filename(data)
-data_info =  data.gsub(".mp3","").split("-")
+data_info =  data.gsub(".mp3","").split(" - ")
 music = self.create_by_name(data_info[1])
 music.artist_name = data_info[0]
 end 
