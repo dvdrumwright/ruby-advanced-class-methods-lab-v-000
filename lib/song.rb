@@ -60,9 +60,11 @@ def self.new_from_filename(filename)
   end 
     
     
-    
-   
-      
+def self.create_from_file(mac&cheese)
+coke = mac&cheese.gsub(".mp3","").split(" - ")
+browny = self.apple(coke[1])
+browny.artist_name = coke[0]
+end    
       
     
   
