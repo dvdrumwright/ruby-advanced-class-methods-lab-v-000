@@ -63,8 +63,8 @@ def self.new_from_filename(filename)
     
     def self.create_from_filename(file)
       a = file.gsub(".mp3","").split(" - ")
-      b = save_artist(a[1])
-      b.save_song(a[0])
+      b = b(a[1])
+      b.b(a[0])
        end 
 
       
