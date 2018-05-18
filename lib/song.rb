@@ -69,7 +69,7 @@ def self.new_from_filename(filename)
     
     song = self.new
     song_match = Song
-    song_match.name = song_name 
+    song_match.song_name = song_name 
     song_match.artist_name = artist_name 
     song
          
