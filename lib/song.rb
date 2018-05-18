@@ -66,7 +66,7 @@ music.artist_name = data_info[0]
 end 
 
 def self.destroy_all 
-  @@all.clear 
+  
   
 end 
 
