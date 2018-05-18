@@ -61,7 +61,10 @@ def self.new_from_filename(filename)
     
     
     
-    
+    def create_from_filename
+      
+      
+    end 
   
 
 
