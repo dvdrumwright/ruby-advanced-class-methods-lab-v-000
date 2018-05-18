@@ -60,10 +60,10 @@ def self.new_from_filename(filename)
   end 
     
     
-def self.create_from_file(pepsi)
-      coke = pepsi.gsub(".mp3","").split(" - ")
-      browny = self.create_by_name(coke[1])
-      browny.artist_name = coke[0]
+def self.create_from_file(file)
+      file_info = file.gsub(".mp3","").split(" - ")
+      song = self.create_by_name(coke[1])
+      song.artist_name = coke[0]
       end    
       
     
