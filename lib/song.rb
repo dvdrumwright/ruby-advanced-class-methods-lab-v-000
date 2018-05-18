@@ -62,7 +62,7 @@ def self.new_from_filename(filename)
     
     
     def self.create_from_filename(file)
-      a = file.split(" - ")
+      a = file.split(" - ").gsub(".mp3","")
        
     
   end 
